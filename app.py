@@ -2,7 +2,7 @@ from flask import Flask, request
 from backend_code_feats.customer_churn import CustomerChurnProcessing # for customer churn preprocessing and predictions
 from backend_code_feats.loan_approval import LoanApprovalProcessing # for loan approval preprocessing and predictions
 from backend_code_feats.loan_repayment import LoanRepaymentProcessing # for loan repayement preprocessing and predictions
-from backend_code_feats.fraudulent_transaction import DetectFraudulentTransaction
+from backend_code_feats.fraudulent_transaction import DetectFraudulentTransaction # for detecting fraudulent transactions
 
 # instance of Flask which helps in creating API'S:
 app = Flask(__name__)
